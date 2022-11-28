@@ -6,7 +6,8 @@ body
     font-family: 'Arial';  
 }  
 
-.login{  
+.login
+{  
         width: 310px;  
         overflow: hidden;  
         margin: auto;  

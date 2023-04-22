@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        body{  margin: 0;  
+               padding: 0;  
+               background-color:light blue;  
+               font-family: 'Arial';  }  
+
+       .login{ width: 310px;  
+               overflow: hidden;  
+               margin: auto;  
+               margin: 20 0 0 450px;  
+               padding: 80px;  
+               background:red;  
+               border-radius: 40px ;  }  
+
+        h1{    text-align: center;  
+               color: #277582;  
+               padding: 20px;  }  
+
+        label{ color: #08ffd1;  
+               font-size: 20px;  }  
+        
+        #Uname{width: 300px;  
+               height: 30px;  
+               border: none;  
+               border-radius: 3px;  
+               padding-left: 8px;  }  
+
+        #Pass{ width: 300px;  
+               height: 30px;  
+               border: none;  
+               border-radius: 3px;  
+               padding-left: 8px;  }
+        
+        #RPass{ width: 300px;  
+               height: 30px;  
+               border: none;  
+               border-radius: 3px;  
+               padding-left: 8px;  }
+
+        #log{  width: 300px;  
+               height: 30px;  
+               border: none;  
+               border-radius: 17px;  
+               padding-left: 7px;  
+               color: blue; } 
+        
+        #fpass{width: 130px;  
+               height: 20px;  
+               border: none;  
+               border-radius: 15px;              
+               color: black;             
+        }
+        
+        span{  color: white;  
+               font-size: 17px;  }  
+
+     </style>  
+    </head>
+    <body>
+        <h1>LOGIN PAGE</h1>   
+        <div class="login">    
+         <form  method="post" action="Loginpage" id="login">  
+  
+         <label><b>User Name</b></label>    
+         <input type="text" name="uname" id="Uname" placeholder="Username">    
+         <br><br>   
+ 
+         <label><b>Password</b></label>    
+         <input type="Password" name="pass" id="Pass" placeholder="Password">    
+         <br><br> 
+         
+         <label><b>Repeat-Password</b></label>    
+         <input type="Password" name="Rpass" id="RPass" placeholder="Repeat-Password">    
+         <br><br> 
+   
+         <input type="submit" name="log" id="log" value="Log In Here">       
+         <br><br>   
+ 
+         <input type="checkbox" id="check" name="check"><span>Remember me</span>  
+         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+         <input type="submit" name="fpass" value="Forgot Password" id="fpass">
+          
+         </form>     
+        </div>  
+    </body>
+</html>
